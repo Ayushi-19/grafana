@@ -92,6 +92,7 @@
 .page-body {
   padding-top: $spacer * 2;
   padding-bottom: $spacer * 4;
+  background-image: url('../public/img/load_background_dark.svg');
 }
 
 .page-heading {
@@ -162,4 +163,19 @@
 
 .page-sidebar-section {
   margin-bottom: $spacer * 2;
+}
+
+.circle {
+  background: #456bd9;
+  border-radius: 50%;
+  color: #fff;
+  height: 8.4em;
+  position: relative;
+  width: 8.4em;
+}
+
+.circle-content {
+  hyphens: auto;
+  margin: 0.75em;
+  text-align: center;
 }

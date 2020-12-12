@@ -2,14 +2,23 @@
 // Layout
 //
 
+.error-text {
+  text-align: center;
+  font-size: 64px !important;
+  font-family: cursive;
+}
+
 .error-container {
   display: flex;
   flex-direction: row;
+  border: none;
 }
 
 .error-row {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding-bottom: 15px;
 }
 
 .error-column {
@@ -21,9 +30,10 @@
   justify-content: space-between;
 }
 
-.graph-box {
-  width: 62%;
+.image-box {
+  width: 100%;
   padding: $space-xl $space-md;
+  align-items: center;
 }
 
 .info-box {
